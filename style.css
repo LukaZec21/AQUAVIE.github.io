@@ -3,21 +3,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 .title {
-    text-align: center;
     color: #333;
 }
 
 .about-section {
-    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -27,7 +29,6 @@ body {
 }
 
 .join-section {
-    text-align: center;
     margin-bottom: 30px;
 }
 
